@@ -2,7 +2,7 @@
 
 curl -o list.out https://raw.githubusercontent.com/GreatMedivack/files/master/list.out
 
-if [ "$1" != '' ]
+if [ $1 ]
 then
     SERVER="$1"
 else
