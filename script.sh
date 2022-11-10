@@ -12,7 +12,6 @@ fi
 DATE="`date +'%e_%m_%Y'`"
 FILE_NAME=""$SERVER"_"$DATE"_running.out"
 
-rm -f $FILE_NAME
 touch $FILE_NAME
 
 while INPUT_FILE= read -r line
@@ -50,3 +49,4 @@ else
     fi
 fi
 
+rm -f $FILE_NAME list.out
