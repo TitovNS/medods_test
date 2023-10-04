@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# https://github.com/GreatMedivack/files/blob/master/test.txt
 curl -o list.out https://raw.githubusercontent.com/GreatMedivack/files/master/list.out
 
 if [ -n "$1" ]
